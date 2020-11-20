@@ -38,6 +38,7 @@ h1 {
   margin: 10px;
   padding: 20px;
   text-align: center;
+  max-width: 160px;
 }
 
 .pokemon .img-container {
@@ -49,8 +50,9 @@ h1 {
 }
 
 .pokemon .img-container img {
-  margin-top: 20px;
-  max-width: 90%;
+  margin-top: 10px;
+  width: 120px;
+  height: 120px;
 }
 
 .pokemon .info {

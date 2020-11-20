@@ -1,5 +1,6 @@
 const poke_container = document.getElementById('poke_container');
-const pokemons_number = 300;
+const pokemons_number = 893
+;
 const colors = {
 	fire: '#FDDFDF',
 	grass: '#DEFDE0',
@@ -42,11 +43,11 @@ function createPokemonCard(pokemon) {
 	
 	pokemonEl.style.backgroundColor = color;
 
-	const pokeInnerHTML = `
+	const pokeInnerHTML =`
         <div class="img-container">
-            <img src="https://pokeres.bastionbot.org/images/pokemon/${
-							pokemon.id
-						}.png" alt="${name}" />
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${pokemon.id
+							.toString()
+							.padStart(3, '0')}.png" alt="${name}" />
         </div>
         <div class="info">
             <span class="number">#${pokemon.id
