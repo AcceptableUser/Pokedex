@@ -18,6 +18,8 @@ const colors = {
 	normal: '#F5F5F5',
 	dark: '#919191',
 	ghost: '#7b62a3',
+	ice: '#51c4e7',
+	steel: '#9eb7b8',
 };
 const main_types = Object.keys(colors);
 
